@@ -1,0 +1,52 @@
+@rendermode InteractiveServer
+
+
+<div class="section-header">
+    <div>
+        <h2>Farmer Dashboard</h2>
+        <p>Manage your harvest and connect with your local buyers.</p>
+    </div>
+    <div>
+        <button class="addItem-btn">Add New Item</button>
+    </div>
+</div>
+
+
+<div class="addNewItemModal">
+    <div class="modal-header">
+        <h3>Add New Item</h3>
+        <button @onclick="CloseModal">x</button>
+    </div>
+    <div class="productInfo">
+        <h2>Product Information</h2>
+        <p>Fill in the details for your new farm produce.</p>
+
+        <div class="inputGroup">
+            <label for="productName">Product Name</label>
+            <input type="text" id="productName" />
+
+            <label for="productPrice">Price per Unit</label>
+            <input type="number" id="productPrice" step="0.01" />
+
+            <label for="productUnit">Unit</label>
+            <input type="text" id="productUnit" placeholder="e.g. kg, bunch, crate" />
+
+            <label for="productQuantity">Quantity Available</label>
+            <input type="number" id="productQuantity">
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button class="discard-btn">Discard</button>
+        <button class="save-btn">Save Product</button>
+    </div>
+
+</div>
+
+
+@code {
+
+    private void CloseModal() {
+        Console.WriteLine("Mow cloased");
+    }
+}

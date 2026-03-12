@@ -1,0 +1,360 @@
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
+/* Header */
+.header[b-m4fwcwfza9] {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px 40px;
+}
+
+nav[b-m4fwcwfza9] {
+    display: flex;
+    gap: 20px;
+}
+
+a[b-m4fwcwfza9] {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+input[b-m4fwcwfza9] {
+    background-color: #F9FCF7;
+    border: 1px solid #F2F8EE;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+button[b-m4fwcwfza9] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 15px;
+}
+
+
+/* Footer */
+
+.footer[b-m4fwcwfza9] {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.footer-content[b-m4fwcwfza9] {
+    text-align: center;
+}
+
+h1[b-m4fwcwfza9] {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p[b-m4fwcwfza9] {
+    font-size: 14px;
+}
+
+.copyright[b-m4fwcwfza9] {
+    font-size: 12px;
+}
+/* /Components/Layout/NavMenu.razor.rz.scp.css */
+/* /Components/Layout/ReconnectModal.razor.rz.scp.css */
+.components-reconnect-first-attempt-visible[b-8i6jk28tzd],
+.components-reconnect-repeated-attempt-visible[b-8i6jk28tzd],
+.components-reconnect-failed-visible[b-8i6jk28tzd],
+.components-pause-visible[b-8i6jk28tzd],
+.components-resume-failed-visible[b-8i6jk28tzd],
+.components-rejoining-animation[b-8i6jk28tzd] {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-show .components-reconnect-first-attempt-visible[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-show .components-rejoining-animation[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-paused .components-pause-visible[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-resume-failed .components-resume-failed-visible[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-retrying[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-retrying .components-reconnect-repeated-attempt-visible[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-retrying .components-rejoining-animation[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-failed[b-8i6jk28tzd],
+#components-reconnect-modal.components-reconnect-failed .components-reconnect-failed-visible[b-8i6jk28tzd] {
+    display: block;
+}
+
+
+#components-reconnect-modal[b-8i6jk28tzd] {
+    background-color: white;
+    width: 20rem;
+    margin: 20vh auto;
+    padding: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: display 0.5s allow-discrete, overlay 0.5s allow-discrete;
+    animation: components-reconnect-modal-fadeOutOpacity-b-8i6jk28tzd 0.5s both;
+    &[open]
+
+{
+    animation: components-reconnect-modal-slideUp-b-8i6jk28tzd 1.5s cubic-bezier(.05, .89, .25, 1.02) 0.3s, components-reconnect-modal-fadeInOpacity-b-8i6jk28tzd 0.5s ease-in-out 0.3s;
+    animation-fill-mode: both;
+}
+
+}
+
+#components-reconnect-modal[b-8i6jk28tzd]::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: components-reconnect-modal-fadeInOpacity-b-8i6jk28tzd 0.5s ease-in-out;
+    opacity: 1;
+}
+
+@keyframes components-reconnect-modal-slideUp-b-8i6jk28tzd {
+    0% {
+        transform: translateY(30px) scale(0.95);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes components-reconnect-modal-fadeInOpacity-b-8i6jk28tzd {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes components-reconnect-modal-fadeOutOpacity-b-8i6jk28tzd {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.components-reconnect-container[b-8i6jk28tzd] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#components-reconnect-modal p[b-8i6jk28tzd] {
+    margin: 0;
+    text-align: center;
+}
+
+#components-reconnect-modal button[b-8i6jk28tzd] {
+    border: 0;
+    background-color: #6b9ed2;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 4px;
+}
+
+    #components-reconnect-modal button:hover[b-8i6jk28tzd] {
+        background-color: #3b6ea2;
+    }
+
+    #components-reconnect-modal button:active[b-8i6jk28tzd] {
+        background-color: #6b9ed2;
+    }
+
+.components-rejoining-animation[b-8i6jk28tzd] {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+    .components-rejoining-animation div[b-8i6jk28tzd] {
+        position: absolute;
+        border: 3px solid #0087ff;
+        opacity: 1;
+        border-radius: 50%;
+        animation: components-rejoining-animation-b-8i6jk28tzd 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+        .components-rejoining-animation div:nth-child(2)[b-8i6jk28tzd] {
+            animation-delay: -0.5s;
+        }
+
+@keyframes components-rejoining-animation-b-8i6jk28tzd {
+    0% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    4.9% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    5% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+    }
+}
+/* /Components/Sections/FarmerDashboard/InventoryManager.razor.rz.scp.css */
+.section-header[b-50bo028829] {
+    display: flex;
+    align-items: center;
+}
+
+.addItem-btn[b-50bo028829] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label[b-50bo028829] {
+    display: block;
+}
+
+
+
+
+/* Add New Item Modal */
+.addNewItemModal[b-50bo028829] {
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-header[b-50bo028829]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3[b-50bo028829] {
+    font-size: 16px;
+}
+
+h2[b-50bo028829] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p[b-50bo028829] {
+    font-size: 14px;  
+}
+/* /Components/Sections/Home/Hero.razor.rz.scp.css */
+.wrapper[b-z2069sm71g] {
+    margin-bottom: 50px;
+}
+
+
+.hero-section[b-z2069sm71g] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Hero.png');
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 75vh;
+    margin-top: 30px;
+}
+
+.hero-content[b-z2069sm71g] {
+    margin-left: 100px;
+}
+
+h2[b-z2069sm71g] {
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+p[b-z2069sm71g]{
+    color: white;
+    font-size: 18px;
+    max-width: 65ch;
+}
+
+span[b-z2069sm71g] {
+    color: var(--primary-color);
+}
+
+
+.explore-btn[b-z2069sm71g] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.action-btns[b-z2069sm71g] {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.learn-btn[b-z2069sm71g] {
+    background-color: #3A3C32;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/* Search bar */
+.search-section[b-z2069sm71g] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar[b-z2069sm71g] {
+    display: flex;
+    width: fit-content;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 10px 0 rgb(181, 181, 181);
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+input[b-z2069sm71g] {
+    background-color: transprent;
+    border: none;
+    width: 300px;
+    font-size: 14px;
+}
+
+button[b-z2069sm71g] {
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+}

@@ -1,0 +1,47 @@
+.section-header[b-50bo028829] {
+    display: flex;
+    align-items: center;
+}
+
+.addItem-btn[b-50bo028829] {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label[b-50bo028829] {
+    display: block;
+}
+
+
+
+
+/* Add New Item Modal */
+.addNewItemModal[b-50bo028829] {
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-header[b-50bo028829]{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3[b-50bo028829] {
+    font-size: 16px;
+}
+
+h2[b-50bo028829] {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p[b-50bo028829] {
+    font-size: 14px;  
+}

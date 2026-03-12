@@ -1,0 +1,26 @@
+* {
+    font-family: Inter;
+}
+
+body {
+    background-color: #F6F8F6;
+}
+
+h1, h2, h3, h4 {
+    color: #0F172A;
+}
+
+p {
+    color: #475569;
+}
+
+:root {
+    --primary-color: #81C15C;
+    --heading-color: #0F172A;
+    --text-color: #475569;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+}
