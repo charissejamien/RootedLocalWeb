@@ -107,6 +107,7 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\ref\RootedLocalWeb.dll
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\FarmerDashboard\InventoryManager.razor.rz.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Home\Hero.razor.rz.scp.css
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\1fl0p3mcoy-{0}-nd1aw79rn6-nd1aw79rn6.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\fwb39hg4nm-{0}-i7jvzwqx63-i7jvzwqx63.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\8gs3qlojcs-{0}-i7jvzwqx63-i7jvzwqx63.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\RootedLocalWeb.sourcelink.json
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\1fl0p3mcoy-{0}-8nmh5plrot-8nmh5plrot.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\fwb39hg4nm-{0}-asmzh8hucd-asmzh8hucd.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\8gs3qlojcs-{0}-asmzh8hucd-asmzh8hucd.gz

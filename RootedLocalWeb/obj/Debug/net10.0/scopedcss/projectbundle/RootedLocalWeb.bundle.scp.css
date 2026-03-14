@@ -220,9 +220,23 @@ p[b-m4fwcwfza9] {
     }
 }
 /* /Components/Sections/FarmerDashboard/InventoryManager.razor.rz.scp.css */
+.wrapper[b-50bo028829] {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
 .section-header[b-50bo028829] {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.section-title[b-50bo028829] {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .addItem-btn[b-50bo028829] {
@@ -245,14 +259,24 @@ label[b-50bo028829] {
 .addNewItemModal[b-50bo028829] {
     background-color: white;
     width: fit-content;
-    padding: 20px;
+    padding: 20px 0 0 0;
     border-radius: 5px;
 }
 
 .modal-header[b-50bo028829]{
     display: flex;
+    padding: 20px 5px;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 50px;
+    border-bottom: 1px solid #F1F4F8;
+}
+
+.close-btn[b-50bo028829] {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
 }
 
 h3[b-50bo028829] {
@@ -262,10 +286,61 @@ h3[b-50bo028829] {
 h2[b-50bo028829] {
     font-size: 16px;
     font-weight: 600;
+    margin: 2px 0;
 }
 
 p[b-50bo028829] {
     font-size: 14px;  
+}
+
+.productInfo[b-50bo028829] {
+    padding: 0 50px;
+    margin-top: 20px;
+}
+
+.inputGroup[b-50bo028829] {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+label[b-50bo028829] {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #334155;
+}
+
+input[b-50bo028829] {
+    background-color: #F8FAFC;
+    border: 1px solid #F1F4F8;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 50ch;
+    font-weight: 300;
+}
+
+.modal-footer[b-50bo028829]{
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: #F8FAFC;
+    margin-top: 20px;
+}
+
+.discard-btn[b-50bo028829] {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.save-btn[b-50bo028829] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
 }
 /* /Components/Sections/Home/Hero.razor.rz.scp.css */
 .wrapper[b-z2069sm71g] {
