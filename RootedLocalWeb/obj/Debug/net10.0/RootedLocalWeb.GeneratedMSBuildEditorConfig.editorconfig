@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Pages/Marketplace.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNYXJrZXRwbGFjZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Sections/Home/Mission.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWN0aW9uc1xIb21lXE1pc3Npb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Sections/Marketplace/Page.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWN0aW9uc1xNYXJrZXRwbGFjZVxQYWdlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/_Imports.razor]
@@ -77,3 +85,7 @@ build_metadata.AdditionalFiles.CssScope = b-50bo028829
 [C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Sections/Home/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWN0aW9uc1xIb21lXEhlcm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z2069sm71g
+
+[C:/Users/jamie/Desktop/Files/Development/Projects/RootedLocalWeb/RootedLocalWeb/Components/Sections/Marketplace/ProduceCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTZWN0aW9uc1xNYXJrZXRwbGFjZVxQcm9kdWNlQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-jrgs27kb00

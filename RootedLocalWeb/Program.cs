@@ -2,11 +2,14 @@ using RootedLocalWeb.Client.Pages;
 using RootedLocalWeb.Components;
 
 var builder = WebApplication.CreateBuilder(args);
+var url = "https://vapxzejwseefmokqptce.supabase.co";
+var key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhcHh6ZWp3c2VlZm1va3FwdGNlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwODkwMjEsImV4cCI6MjA4ODY2NTAyMX0.ukJ8UxDHD-5A6APdj_z5uL0WCuE9ikCU5HKhzdWuuvM";
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+builder.Services.AddScoped(_=>new Supabase.Client(url, key));
 
 var app = builder.Build();
 
