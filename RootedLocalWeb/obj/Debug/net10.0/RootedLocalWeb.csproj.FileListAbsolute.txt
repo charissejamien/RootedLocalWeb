@@ -62,11 +62,11 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\FarmerDashboard\InventoryManager.razor.rz.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Home\Hero.razor.rz.scp.css
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Home\Mission.razor.rz.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Marketplace\ProduceCard.razor.rz.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\bundle\RootedLocalWeb.styles.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\projectbundle\RootedLocalWeb.bundle.scp.css
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\f9o902iofb-{0}-99zm1jdh75-99zm1jdh75.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\1fl0p3mcoy-{0}-8nmh5plrot-8nmh5plrot.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\jatiy7kyag-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\3ri54e6f3y-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\wjs1ghu813-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -111,12 +111,10 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\v05wuxaumg-{0}-h1s4sie4z3-h1s4sie4z3.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\o735popgmm-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\vbd7jjayh0-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\4hbsus0o3o-{0}-abdmv1u4y3-abdmv1u4y3.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\4hbsus0o3o-{0}-cyz5k529gx-cyz5k529gx.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\pc4aa7756d-{0}-0i02oychrm-0i02oychrm.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\rie3atqumd-{0}-ax6tuj8tun-ax6tuj8tun.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\36ejczb3y8-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\fwb39hg4nm-{0}-odi99y9b7f-odi99y9b7f.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\8gs3qlojcs-{0}-odi99y9b7f-odi99y9b7f.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\staticwebassets.development.json
@@ -128,3 +126,8 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\RootedLocalWeb.pdb
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\RootedLocalWeb.genruntimeconfig.cache
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\ref\RootedLocalWeb.dll
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Home\Steps.razor.rz.scp.css
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\scopedcss\Components\Sections\Authentication\Signup.razor.rz.scp.css
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\1fl0p3mcoy-{0}-zj3nhovbax-zj3nhovbax.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\fwb39hg4nm-{0}-41bgp2a1p6-41bgp2a1p6.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb\obj\Debug\net10.0\compressed\8gs3qlojcs-{0}-41bgp2a1p6-41bgp2a1p6.gz

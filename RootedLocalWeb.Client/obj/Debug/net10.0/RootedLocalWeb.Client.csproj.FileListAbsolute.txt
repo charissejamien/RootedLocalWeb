@@ -207,6 +207,8 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.s4akauj23z.wasm
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.d3jlv1lcos.pdb
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.js.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.3ur142rhlk.wasm.gz
@@ -416,6 +418,8 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.s4akauj23z.wasm.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.d3jlv1lcos.pdb.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\dotnet.js.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\RootedLocalWeb.Client.staticwebassets.runtime.json
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\RootedLocalWeb.Client.staticwebassets.endpoints.json
@@ -638,6 +642,7 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.AssemblyInfo.cs
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.csproj.CoreCompileInputs.cache
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.sourcelink.json
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -845,8 +850,8 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.genruntimeconfig.cache
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\blazor.build.boot-extension.json
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\dotnet.js
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\y2db6gh3ep-{0}-tswichycbp-tswichycbp.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\cxnkei1kx5-{0}-tswichycbp-tswichycbp.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\y2db6gh3ep-{0}-x0ueugt8gp-x0ueugt8gp.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\cxnkei1kx5-{0}-x0ueugt8gp-x0ueugt8gp.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\yec3y5nd9q-{0}-66stpp682q-66stpp682q.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\ofenqejmyl-{0}-3ur142rhlk-3ur142rhlk.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\eslejku6qu-{0}-ld1j2d23tn-ld1j2d23tn.gz
@@ -1055,6 +1060,9 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\cq269wgypu-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\rdldbo9bse-{0}-tptq2av103-tptq2av103.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\8h32tixezg-{0}-lfu7j35m59-lfu7j35m59.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\xpktf4qrhc-{0}-s4akauj23z-s4akauj23z.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\24wmkk8nin-{0}-d3jlv1lcos-d3jlv1lcos.gz
+C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\ubyghv4mve-{0}-atez3dgzkg-atez3dgzkg.gz
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\staticwebassets.development.json
@@ -1065,11 +1073,3 @@ C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\refint\RootedLocalWeb.Client.dll
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.pdb
 C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\ref\RootedLocalWeb.Client.dll
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.a0pekc3mm9.wasm
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.xkf35tmonc.pdb
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.a0pekc3mm9.wasm.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\bin\Debug\net10.0\wwwroot\_framework\RootedLocalWeb.Client.xkf35tmonc.pdb.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\RootedLocalWeb.Client.sourcelink.json
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\xpktf4qrhc-{0}-a0pekc3mm9-a0pekc3mm9.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\24wmkk8nin-{0}-xkf35tmonc-xkf35tmonc.gz
-C:\Users\jamie\Desktop\Files\Development\Projects\RootedLocalWeb\RootedLocalWeb.Client\obj\Debug\net10.0\compressed\ubyghv4mve-{0}-1ld65cg4gv-1ld65cg4gv.gz

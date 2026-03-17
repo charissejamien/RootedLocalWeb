@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RootedLocalWeb.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e5d2a310179f9f3ee978683d45f33a16352c607")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa217f9d10a99ecaef84489bda07b5ff8678b5e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RootedLocalWeb.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RootedLocalWeb.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

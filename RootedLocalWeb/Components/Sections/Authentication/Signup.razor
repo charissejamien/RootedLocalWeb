@@ -1,0 +1,73 @@
+
+@inject Supabase.Client SupabaseClient
+@using RootedLocalWeb.Models
+@rendermode InteractiveServer
+<header>
+        <div><h1>Rooted Local</h1></div>
+        <div class="login-grid">
+            <p>Already have an account?</p>
+            <button>Login</button>
+        </div>
+</header>
+
+
+<div class="wrapper">
+    <div class="left-section">
+        <h2>Join the harvest</h2>
+        <p>Connecting you to fresh, local harvests.</p>
+
+        <div class="account-type">
+            <button class="consumer-btn">Consumer</button>
+            <button class="farmer-btn">Farmer</button>
+        </div>
+
+        <div class="form">
+            <label for="fullName">Full Name</label>
+            <input type="text" placeholder="John Doe" @bind="newAccount.fullName">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="rootedlocal@example.com" @bind="newAccount.emailAddress">
+            <label for="password">Password</label>
+            <input type="password" placeholder="••••••••">
+            <button class="create-acc-btn" @onclick="SaveUser">Create Account</button>
+        </div>
+        <p class="terms-conditions">By signing up, you agree to our Terms of Services and Privacy Policy.</p>
+    </div>
+
+    <div class="right-section">
+        <div class="content">
+            <h2>Grow with us.</h2>
+            <p>Support local farmers and get the freshsest seasonal produce delivered to
+            your doorstep.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+        <p>&copy; 2026. The Rooted Local. All rights reserved.</p>
+</footer>
+
+
+@code {
+
+    private UserAccount newAccount = new UserAccount();
+
+    protected override async Task OnInitializedAsync() {
+        await SaveUser();
+    }
+
+    private async Task SaveUser() {
+        
+        try {
+        var response = await SupabaseClient.From<UserAccount>().Insert(newAccount);
+        
+        Console.WriteLine("successfully registered.");
+        newAccount = new UserAccount();
+
+
+        } catch (Exception e) {
+            Console.WriteLine($"{e.Message}");
+        }
+    
+
+    }
+}

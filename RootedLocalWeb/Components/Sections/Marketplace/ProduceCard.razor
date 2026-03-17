@@ -1,44 +1,33 @@
 @inject Supabase.Client SupabaseClient
 
+
+
 <div class="wrapper">
-    @if (inventory == null)
-    {
-        <p>Loading produce...</p>
-    }
-    else
-    {
-        @foreach (var item in inventory)
-        {
-            @* Everything inside this loop repeats for every item in your DB *@
-            <div class="produceCard">
-                <p class="farm">@item.Name</p> @* Substituted Name *@
-                <p class="distance">Available: @item.Quantity</p> @* Substituted Quantity *@
-                
-                <div class="cardDetails">
-                    <div>
-                        @* Substituted Price (formatted to 2 decimals) *@
-                        <p class="price">$@item.Price.ToString("0.00")</p>
-                        <p class="unit">per @item.Unit</p> @* Substituted Unit *@
-                    </div>
-                    <div>
-                        <button>View Farm</button>
-                    </div>
+    @foreach (var item in inventory) {
+        <div class="produce-card">
+            <div class="produce-img"></div>
+            <h2 class="farm-name">@item.Name</h2>
+            <p class="location">@item.Quantity</p>
+            <div class="price-row">
+                <div>
+                    <h2 class="price">@item.Price</h2>
+                    <p class="unit">@item.Unit</p>
+                </div>
+                <div>
+                    <button>View Farm</button>
                 </div>
             </div>
-        }
+        </div>
     }
 </div>
 
+
 @code {
-    
+
     private List<ProduceItem> inventory = new List<ProduceItem>();
 
     protected override async Task OnInitializedAsync() {
-        try {
-            await LoadInventory();
-        } catch (Exception e) {
-            Console.WriteLine ($"{e.Message}");
-        }
+        await LoadInventory();
     }
 
     private async Task LoadInventory() {
