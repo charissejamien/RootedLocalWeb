@@ -1,6 +1,7 @@
 @rendermode InteractiveServer
+@using RootedLocalWeb.Models
+@inject Supabase.Client SupabaseClient
 
-namespace RootedLocalWeb.Components.Models;
 
 <div class="wrapper">
     <div class="section-header">
@@ -27,32 +28,46 @@ namespace RootedLocalWeb.Components.Models;
 
                 <div>
                     <label for="productName">Product Name</label>
-                    <input type="text" id="productName" placeholder="e.g. Japanese Tomatoes"/>
+                    <input type="text" @bind="newItem.Name" id="productName" placeholder="e.g. Japanese Tomatoes"/>
                 </div>
                 <div>
                     <label for="productPrice">Price per Unit</label>
-                    <input type="number" id="productPrice" step="0.01" placeholder="$0.00" />
+                    <input type="number" @bind="newItem.Price" id="productPrice" step="0.01" placeholder="$0.00" />
                 </div>
                 <div>
                     <label for="productUnit">Unit</label>
-                    <input type="text" id="productUnit" placeholder="e.g. kg, bunch, crate" />
+                    <input type="text" @bind="newItem.Unit" id="productUnit" placeholder="e.g. kg, bunch, crate" />
                 </div>
                 <div>
                     <label for="productQuantity">Quantity Available</label>
-                    <input type="number" id="productQuantity" placeholder="0">
+                    <input type="number" @bind="newItem.Quantity" id="productQuantity" placeholder="0">
                 </div>
             </div>
         </div>
 
         <div class="modal-footer">
             <button class="discard-btn">Discard</button>
-            <button class="save-btn">Save Product</button>
+            <button class="save-btn" @onclick="SaveProduce">Save Product</button>
         </div>
 
     </div>
 </div>
 
 @code {
+
+    private ProduceItem newItem = new ProduceItem();
+
+    public async Task SaveProduce() {
+        try {
+            await SupabaseClient.From<ProduceItem>().Insert(newItem);
+            newItem = new ProduceItem();
+            Console.WriteLine("New produce item saved successfully!");
+            StateHasChanged();
+        }
+        catch (Exception e) {
+            Console.WriteLine($"{e.Message}");
+        }
+    }
 
     private void CloseModal() {
         Console.WriteLine("Mow cloased");

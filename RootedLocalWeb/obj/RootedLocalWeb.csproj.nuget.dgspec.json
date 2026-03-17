@@ -431,6 +431,10 @@
               "target": "Package",
               "version": "[10.0.3, )"
             },
+            "postgrest-csharp": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
             "supabase-csharp": {
               "target": "Package",
               "version": "[0.16.2, )"

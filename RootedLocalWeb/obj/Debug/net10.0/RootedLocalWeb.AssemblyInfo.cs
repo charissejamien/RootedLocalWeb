@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RootedLocalWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed59a397461534bf4fe6923f313c347f3141e04f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5fb12f131e5491e80d7b396ab72421e18d9ae4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("RootedLocalWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RootedLocalWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

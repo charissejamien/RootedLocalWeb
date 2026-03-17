@@ -1,0 +1,52 @@
+
+.wrapper[b-jrgs27kb00] {
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.cardImg[b-jrgs27kb00] {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.produceCard[b-jrgs27kb00] {
+    padding: 20px;
+}
+
+.farm[b-jrgs27kb00] {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+.distance[b-jrgs27kb00] {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.cardDetails[b-jrgs27kb00] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price[b-jrgs27kb00] {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin: 0;
+}
+
+.unit[b-jrgs27kb00] {
+    font-size: 14px;
+}
+
+button[b-jrgs27kb00] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 5px 15px;
+}

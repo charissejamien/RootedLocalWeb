@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="postgrest-csharp" Version="3.5.1" />
     <PackageReference Include="supabase-csharp" Version="0.16.2" />
     <ProjectReference Include="..\RootedLocalWeb.Client\RootedLocalWeb.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.3" />

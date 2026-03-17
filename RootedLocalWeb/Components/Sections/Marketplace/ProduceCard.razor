@@ -1,19 +1,48 @@
-
+@inject Supabase.Client SupabaseClient
 
 <div class="wrapper">
-    <div class="cardImg">
-        </div>
-    <div class="produceCard">
-        <p class="farm">Green Valley Farm</p>
-        <p class="distance">5.8 km away</p>
-        <div class="cardDetails">
-            <div>
-                <p class="price">$3.50</p>
-                <p class="unit">per kg</p>
+    @if (inventory == null)
+    {
+        <p>Loading produce...</p>
+    }
+    else
+    {
+        @foreach (var item in inventory)
+        {
+            @* Everything inside this loop repeats for every item in your DB *@
+            <div class="produceCard">
+                <p class="farm">@item.Name</p> @* Substituted Name *@
+                <p class="distance">Available: @item.Quantity</p> @* Substituted Quantity *@
+                
+                <div class="cardDetails">
+                    <div>
+                        @* Substituted Price (formatted to 2 decimals) *@
+                        <p class="price">$@item.Price.ToString("0.00")</p>
+                        <p class="unit">per @item.Unit</p> @* Substituted Unit *@
+                    </div>
+                    <div>
+                        <button>View Farm</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <button>View Farm</button>
-            </div>
-        </div>
-    </div>
+        }
+    }
 </div>
+
+@code {
+    
+    private List<ProduceItem> inventory = new List<ProduceItem>();
+
+    protected override async Task OnInitializedAsync() {
+        try {
+            await LoadInventory();
+        } catch (Exception e) {
+            Console.WriteLine ($"{e.Message}");
+        }
+    }
+
+    private async Task LoadInventory() {
+        var response = await SupabaseClient.From<ProduceItem>().Get();
+        inventory = response.Models;
+    }
+}
